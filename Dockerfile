@@ -8,6 +8,7 @@ RUN apk add --update \
         curl \
         jq \
         openssl \
+        iptables \
     && rm /var/cache/apk/*
 
 CMD [ "sleep", "infinity" ]
